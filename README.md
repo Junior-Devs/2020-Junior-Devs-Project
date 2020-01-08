@@ -21,6 +21,9 @@ In the following days we will discuss how the work will be organized and more in
    - How to classify correctly your home waste: Paper/Glass/Plastic/Textil/Organic( for compost)/.... 
    - How to make compost at home
 
+### Tech stack
+We will be building this project with JavaScript: React on the frontend and Node.js in the backend. More details to come!
+
 ## How to contribute to this project
 
 Please read our [contributing guide](https://github.com/Junior-Devs/2020-Junior-Devs-Project/blob/master/CONTRIBUTING.md). 
