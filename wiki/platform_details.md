@@ -10,7 +10,9 @@ To be defined:
 - [ ] Usage of Avatars
 - [ ] Define which actions will score points: completed Modules, streak milestones (days in a row, no errors, modules completed in one day... 
 
-<img src="https://cdn.pixabay.com/photo/2012/04/11/18/12/recycle-29227_960_720.png" alt="recycle logo around earth" width="300" height="300">
+<p align="center">
+  <img src="https://cdn.pixabay.com/photo/2012/04/11/18/12/recycle-29227_960_720.png" alt="recycle logo around earth" width="300" height="300">
+</p>
 
 ## Learning Modules
 Each Learning Module will be no longer than 10 pages of content ( with pictures/graphics) and an exercise or activity every third page with one major activity per module. 
