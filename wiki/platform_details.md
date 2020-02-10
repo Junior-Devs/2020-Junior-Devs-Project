@@ -1,8 +1,8 @@
 # :seedling: [NAME] E-learning platform 
-*[NAME]* is an e-Learning platform that raises awareness about a Zero Waste Life style and its positive impact to the environment, by teaching resources to become an active change agent. 
+*[NAME]* is an e-Learning platform that raises awareness about a the importance of a Zero Waste Life style and its positive impact to the environment, by teaching resources to become an active change agent. 
 Engaging the learner on a gamified application, where can progress levels, score, unlock new modules, earn badges, compete with other learners on a leadership board, track streaks, etc.
 
-To be defined: 
+**To be defined:**
 - [ ] Name: 
 - [ ] Availability (Web/Mobile)
 - [ ] Target Audience
@@ -60,11 +60,7 @@ Each Learning Module will be no longer than 10 pages of content ( with pictures/
 ### 5. Leadership Board
 - 
 
-### 6. Scores
-- 
-
-
-### 7. General
+### 6. General
 - Keep user logged ?
 -	Reporting and Data Analysis to build the Leadership boards, 
 - Track the Learner score and batches earned
