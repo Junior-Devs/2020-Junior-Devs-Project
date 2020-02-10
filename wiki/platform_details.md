@@ -1,4 +1,4 @@
-# [NAME] E-learning platform 
+# :seedling: [NAME] E-learning platform 
 *[NAME]* is an e-Learning platform that raises awareness about a Zero Waste Life style and its positive impact to the environment, by teaching resources to become an active change agent. 
 Engaging the learner on a gamified application, where can progress levels, score, unlock new modules, earn badges, compete with other learners on a leadership board, track streaks, etc.
 
@@ -14,7 +14,7 @@ To be defined:
   <img src="https://cdn.pixabay.com/photo/2012/04/11/18/12/recycle-29227_960_720.png" alt="recycle logo around earth" width="300" height="300">
 </p>
 
-## Learning Modules
+## :books: Learning Modules
 Each Learning Module will be no longer than 10 pages of content ( with pictures/graphics) and an exercise or activity every third page with one major activity per module. 
 - Intro
 - A journey to a "Zero Waste" Lifestyle
@@ -24,7 +24,7 @@ Each Learning Module will be no longer than 10 pages of content ( with pictures/
 - Become a game changer for your community
 - How to make compost at home
 
-## Features
+## :bulb: Features
 
 ### 1. Login Page
 - Sign up option for new users
