@@ -42,6 +42,9 @@ Each Learning Module will be no longer than 10 pages of content ( with pictures/
 - Link to Leadership board
 
 ### 3. Profile settings
+- Select Location (locate compost centers and upcycle organizations based on location) 
+- Resources for proper containment of waste (attain a metal trash bin for a home unit with pest issues/proper home sorting bins)
+- Track # of plastic bags saved with use of tote bags for shopping
 
 ### 4. Learning Modules 
 - Go to previous or next slide
