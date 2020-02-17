@@ -51,7 +51,7 @@ Each Learning Module will be no longer than 10 pages of content ( with pictures/
 
 ### 4. Learning Modules 
 - Go to previous or next slide
-- Add a pomodoro timer (with time selector for focus time and break time e.g. 25 minutes focus countdown, 5 minute break
+NICE TO HAVE FEATURE - Add a pomodoro timer (with time selector for focus time and break time e.g. 25 minutes focus countdown, 5 minute break
   countdown)
 - Confirm if user wants to leave without completing the module, then progress and scrore will be lost
 #### a. Content
