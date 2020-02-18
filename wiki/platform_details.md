@@ -79,6 +79,15 @@ NICE TO HAVE FEATURE - Add a pomodoro timer (with time selector for focus time a
 - Offline Mode ? Option to download modules and SYNC later
 - Push Notifications
 - Link to profiles of other learners and motivational reading links
+- Ability to invite other users to the app
+- Profile area where a user can post information about personal projects (Composting System, Recycling System etc) and get Votes/Rewards
+
+### 7. Data Logging and Analysis
+- Time a user spends on content
+- Content that gets revisited
+- Return of users (Churn)
+- More and less popular content
+- User flow within app
 
 
 ## Resources:
