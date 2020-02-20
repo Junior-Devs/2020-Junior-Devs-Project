@@ -12,6 +12,6 @@ We are ready to create the  mockups/design for our E-Learning Platform, so let's
 
 Add your proposal below this line
 
-- [Your name] - [Page name] - Mobile or Desktop [LINK](#)
+- [Jessica Sanchez] - [Login] - [Desktop] - [LINK](https://www.figma.com/file/g7MDcderKLL6xRsba6NKBo/Elearning-Platform---draft?node-id=0%3A1) - with features from the [platform_details.md](https://github.com/JessSanchezC/2020-Junior-Devs-Project/blob/master/wiki/platform_details.md#1-login-page) Login Page
 
 
