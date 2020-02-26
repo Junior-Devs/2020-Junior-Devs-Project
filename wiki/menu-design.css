@@ -3,6 +3,9 @@
 }
 body{
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
     margin:0;
 }
 .menu-bc{
@@ -22,10 +25,10 @@ nav{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 20%;
     height: 40px;
-   
-    background: linear-gradient(360deg, #dee1e1 10%, #f4f4f4 360%);
+background: rgb(221,221,221);
+background: linear-gradient(360deg, rgba(221,221,221,1) 2%, rgba(219,219,219,1) 55%, rgba(169,170,168,1) 100%);
 }
 .appname h3{
     margin-left: 10px;
@@ -42,7 +45,8 @@ ul {
     padding: 0;
     width: 100%;
     height: 40px;
-    background: linear-gradient(360deg, #dee1e1 10%, #f4f4f4 360%);
+    background: rgb(221,221,221);
+background: linear-gradient(360deg, rgba(221,221,221,1) 2%, rgba(219,219,219,1) 55%, rgba(169,170,168,1) 100%);
   }
   li a {
     display: block;
