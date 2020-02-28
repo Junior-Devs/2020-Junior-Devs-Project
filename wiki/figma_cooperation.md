@@ -16,3 +16,4 @@ Add your proposal below this line
 
 -[bilal ighmouracene] - [home] - [Desktop] - [LINK](https://www.figma.com/file/HNLdpIu2S7kV0G03By3Sh1/Design-playground-(Copy)?node-id=1%3A3)  
 
+-   [rilinda abazi] - [Home-page] - [Desktop] - [LINK] (https://www.figma.com/file/xSKKbu4zKxnkShGidFSutM/Design-playground-Copy?node-id=195%3A2)
