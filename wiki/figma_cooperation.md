@@ -18,4 +18,8 @@ Add your proposal below this line
 
 - [bilal ighmouracene] - [login] - [Desktop] - [LINK](https://www.figma.com/file/Pg2lkDRCAE03RmVqdYo7XO/Elearning-Platform-(login)?node-id=0%3A1)
 
--   [rilinda abazi] - [Home-page] - [Desktop] - [LINK] (https://www.figma.com/file/xSKKbu4zKxnkShGidFSutM/Design-playground-Copy?node-id=195%3A2)
+- [rilinda abazi] - [Home-page] - [Desktop] - [LINK] (https://www.figma.com/file/xSKKbu4zKxnkShGidFSutM/Design-playground-Copy?node-id=195%3A2)
+
+- [Jordi Gil] - [Login] - [Desktop] - [LINK] (https://www.figma.com/file/sO9FJRHiPZygcJsq3JGnMD/Elearning-Platform-Desktop-Login)
+
+- [Jordi Gil] - [Home] - [Desktop] - [LINK] (https://www.figma.com/file/S7Vc4yHl7QWAxBaHVr5x7Y/Elearning-Platform-Desktop-Home)
