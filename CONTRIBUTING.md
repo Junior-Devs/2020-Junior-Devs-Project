@@ -6,6 +6,12 @@ If you wish to contribute to this project, please make sure you follow these gui
 
 1 - Fork this repository
 
+2 - Setup your Local Development Environment
+
+* Download and install NodeJS from https://nodejs.org/en/
+* In your repository folder, go to to the ```server``` folder and run ```npm start```
+* You can connect to the local instance on ```http://localhost:4000/```
+
 2 - Make the changes you wish to your local copy of the repository and push to your own fork
 
 3 - Make a pull request to the main [repository](https://github.com/Junior-Devs/2020-Junior-Devs-Project)
