@@ -24,62 +24,40 @@ Each Learning Module will be no longer than 10 pages of content ( with pictures/
 - Become a game changer for your community
 - How to make compost at home
 
-## :bulb: Features
+## :bulb: Minimum Features
 
 ### 1. Login Page
-- Sign up option for new users
-- Log in box with field to enter user and password
-- Show password checkbox
-- Tell user if capslock is used
-- Allow users to login with an external account (e.g. Facebook) ?
-- "Remember Me" Option
+
+- Sign up form with validations for new users 
+- Log in form with validations to enter user and password
+- Allow users to login with an external account (e.g. Facebook, Google, etc)
 - "Forgot Your Password?" Functionality
 
 ### 2. Home
 - Summary of achievements (score, streaks)
-- Icon for each Learning Module, shaded if completed, colorful if open, transparent if locked
-  with a percentage icon showing the total amount completed for the learning module
-- Link to profile settings
-- Link to Leadership board
+- Icon for each Learning Module, shaded if completed, colorful if open, transparent if locked with a percentage icon showing the total amount completed for the learning module 
+- Navigation bar
 
 ### 3. Profile settings
-- Show or hide email, mobile number for Telegram/Whatsapp , Twitter/Github/Facebook handle
 - Add profile picture
-- Tell us more about yourself
-- Goals and aspirations
-- Tech stack
+- Description
+- Display of badges earned
 
-### 4. Learning Modules 
+### 4. Learning Modules
 - Go to previous or next slide
-NICE TO HAVE FEATURE - Add a pomodoro timer (with time selector for focus time and break time e.g. 25 minutes focus countdown, 5 minute break
-  countdown)
-- Confirm if user wants to leave without completing the module, then progress and scrore will be lost
-#### a. Content
+
+**a. Content**
 - Content appears on slides
 
-#### b. Quizes in between slides
+**b. Quizzes in between slides**
 - Calculate amount of marks and correct answers
 - Suggest to rather restudy section e.g. if less than 50%
 
-#### c. Final Test 
-- 
-- Zooming into a particular image,
+**c. Final Test**
 
-
-### 5. Leadership Board
-- 
-
-### 6. General
-- Keep user logged ?
--	Reporting and Data Analysis to build the Leadership boards
-- Track the Learner score and batches earned
-- Share progress in Social Media (Facebook/Twitter)
-- Motivational Phrases, fun facts, tips and interesting stats while loading
-- Feedback about the App and content: i.e. 5 stars rating
-- Offline Mode ? Option to download modules and SYNC later
-- Push Notifications
-- Link to profiles of other learners and motivational reading links
-
+### 5. General
+- Keep user logged for a certain amount of time (30 days?)
+- Track the Learner score and badges earned
 
 ## Resources:
 -	https://elearningindustry.com/6-killer-examples-gamification-in-elearning
