@@ -2,4 +2,7 @@
 npm-debug.log
 .DS_Store
 /.env
+<<<<<<< HEAD
 .vscode/
+=======
+>>>>>>> master
