@@ -7,6 +7,4 @@ test("displays text passed as prop correctly", () => {
   render(<HelloWorld text={testText} />);
 
   expect(screen.queryByText(testText));
-
-  expect(screen.getByText(testText)).toBeInTheDocument();
 });
