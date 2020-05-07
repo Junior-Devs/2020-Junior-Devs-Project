@@ -6,7 +6,8 @@
     "dev": "parcel src/index.html",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest"
+    "test": "jest",
+    "build": "parcel build src/*"
   },
   "author": "",
   "license": "ISC",
@@ -26,5 +27,6 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
+  "proxy": "http://localhost:4000",
   "description": ""
 }
