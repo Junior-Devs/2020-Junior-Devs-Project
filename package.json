@@ -1,0 +1,28 @@
+{
+  "name": "2020-junior-devs-project",
+  "version": "1.0.0",
+  "description": "2020 collaboration project for members of the Junior Devs group",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "npm-bundler": "^0.0.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd frontend && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junior-Devs/2020-Junior-Devs-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junior-Devs/2020-Junior-Devs-Project/issues"
+  },
+  "homepage": "https://github.com/Junior-Devs/2020-Junior-Devs-Project#readme"
+}
