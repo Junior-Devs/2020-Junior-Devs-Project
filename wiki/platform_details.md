@@ -1,9 +1,9 @@
-# :seedling: [NAME] E-learning platform 
-*[NAME]* is an e-Learning platform that raises awareness about the importance of a Zero Waste Life style and its positive impact to the environment, by teaching resources that become an active change agent. 
+# :seedling: the Earth Academy - E-learning platform 
+*The Earth Academy* is an e-Learning platform that raises awareness about the importance of a Zero Waste Life style and its positive impact on the environment, by teaching resources that become an active change agent. 
 Engaging the learner on a gamified application, where the user can progress levels, get scored, unlock new modules, earn badges, compete with other learners on a leadership board, track streaks and many other features to be added in future releases.
 
 **To be defined:**
-- [ ] Name:
+- [x] Name:
 - [ ] Availability (Web/Mobile):
 - [ ] Target Audience:
 - [ ] Narrative (Interactive Fiction):

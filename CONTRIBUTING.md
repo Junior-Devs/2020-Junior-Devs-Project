@@ -26,5 +26,8 @@ You can find more [details on the project here](https://github.com/Junior-Devs/2
 
 We have a [Figma workspace](https://www.figma.com/file/g09N7BPg0QPBAKsr789UPo/Design-playground?node-id=0%3A1) to work on the mockups/design. Find more details on [how to add your ideas to the design here](https://github.com/Junior-Devs/2020-Junior-Devs-Project/wiki/How-to-collaborate-on-Figma).
 
-## Upcoming 
-Once we're happy with the plan and design we'll start creating tickets (GitHub issues) so we can start the work. Stay tuned!
+## How can you contribute?
+Tickets are created under [Issues](https://github.com/Junior-Devs/2020-Junior-Devs-Project/issues) tab in GitHub repository. 
+1) make sure you're registered with the group through e-mail and telegram first
+2) find issue that you can help with
+3) show your interest by starting conversation through GitHub issue commenting feature.
