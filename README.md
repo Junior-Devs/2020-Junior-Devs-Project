@@ -22,7 +22,7 @@ In the following days we will discuss how the work will be organized and more in
    - How to make compost at home
 
 ### Tech stack
-We will be building this project with JavaScript: React on the frontend and Node.js in the backend. More details to come!
+We will be building this project with JavaScript: React on the frontend and Node.js on the backend. More details to come!
 
 ## How to contribute to this project
 
@@ -40,12 +40,12 @@ Please read our [contributing guide](https://github.com/Junior-Devs/2020-Junior-
 
 ### Frontend
 - `cd frontend`
-- Run `npm install` (the frontend and backend are two separate projects with separate `package.json` file, so you need to do this again inside the `frontend` directory
+- Run `npm install` (the frontend and backend are two separate projects with separate `package.json` files, so you need to do this again inside the `frontend` directory
 - Run `npm run dev`. If all went well, you should see "Server running at http://localhost:1234". You can now open the project at http://localhost:1234.
 
-*** Important ***: There is a `HelloWorld.jsx` sample component with its corresponding test file (`HelloWorld.spec.jsx`) and story (`HelloWorld.stories.jsx`). DO NOT delete these, they are there as templated to help you and others get started. 
+*** Important ***: There is a `HelloWorld.jsx` sample component with its corresponding test file (`HelloWorld.spec.jsx`) and story (`HelloWorld.stories.jsx`). DO NOT delete these, they are there as templates to help you and others get started. 
 
 ### To run Storybook:
 
-- `cd frontend` if you're not already the `frontend` directory
+- `cd frontend` if you're not already in the `frontend` directory
 - Run `npm run storybook`. The browser will open up with Storybook.
