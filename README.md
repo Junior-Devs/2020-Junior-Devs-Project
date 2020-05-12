@@ -36,7 +36,7 @@ Please read our [contributing guide](https://github.com/Junior-Devs/2020-Junior-
 
 - See [here](https://github.com/Junior-Devs/2020-Junior-Devs-Project/wiki/Local-Database-Setup-for-Testing-Backend) how to set up the local database.
 - In the main directory, run `npm install`
-- Run `npm install`. If all went well you should see "NodeJS Server Running"
+- Run `npm start`. If all went well you should see "NodeJS Server Running"
 
 ### Frontend
 - `cd frontend`
