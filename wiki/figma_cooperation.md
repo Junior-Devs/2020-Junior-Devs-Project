@@ -1,6 +1,6 @@
 # Figma Cooperation
 
-We are ready to create the mockups/design for our E-Learning Platform - the Earth Academy, so let's get started! 
+We are ready to create the mockups/design for our E-Learning Platform - Earth Academy, so let's get started! 
 
 #### Guidelines
 - Please read the wiki [How to collaborate on Figma](https://github.com/Junior-Devs/2020-Junior-Devs-Project/wiki/How-to-collaborate-on-Figma), before adding your mockup/design information.
