@@ -1,0 +1,47 @@
+.CourseCard {
+    display: flex;
+    background: #F6F8F5;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.24);
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.CardBody {
+    align-self: center;
+    padding: 2em;
+}
+
+.CardBody span {
+    font-size: 18px;
+    line-height: 21px;
+    color: #787575;
+}
+
+.CardBody h1 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #547818;
+}
+
+.CardBody p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.CardButton {
+    align-self: center;
+    margin: 0 auto; 
+    padding: 1em;
+}
+
+.CardButton button {
+    background: #547818;
+    color: #FFFFFF; 
+    font-size: 16px;
+    line-height: 19px;
+    padding: 1em 2em; 
+    border-radius: 30px;
+    margin: 20px; 
+}
