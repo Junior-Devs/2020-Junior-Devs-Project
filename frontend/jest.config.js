@@ -67,6 +67,7 @@ module.exports = {
   // moduleDirectories: [
   //   "node_modules"
   // ],
+  moduleDirectories: [".", "src", "src/util", "node_modules"],
 
   // An array of file extensions your modules use
   // moduleFileExtensions: [
@@ -80,6 +81,11 @@ module.exports = {
 
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
   // moduleNameMapper: {},
+  moduleNameMapper: {
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
+      "src/test/mocks/fileMock.js",
+    "\\.(css|less)$": "src/test/mocks/styleMock.js",
+  },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
   // modulePathIgnorePatterns: [],
