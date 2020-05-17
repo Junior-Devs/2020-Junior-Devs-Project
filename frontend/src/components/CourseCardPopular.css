@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .card-popular {
   font-family: Roboto, 'sans-serif';
   background: white;
@@ -7,19 +11,21 @@
   border: 1px solid rgba(61, 94, 15, 0.15);
 }
 
-.card-popular--image {
+.course-image {
   height: 257px;
 }
 
-.card-popular--container {
-  padding-left: 10px;
-  padding-right: 10px;
-  height: 233px;
+.course-info {
+  margin-top: -4px;
+  padding: 10px;
+  height: 213px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.card-popular--title {
+.course-title {
   margin: 0;
-  padding-top: 18px;
   color: #547818;
   font-style: normal;
   font-weight: bold;
@@ -27,16 +33,15 @@
   line-height: 29px;
 }
 
-.card-popular--concepts-title {
+.concepts--title {
   margin: 0;
-  padding-top: 26px;
   color: #8E9D79;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
 }
 
-.card-popular--concepts-content {
+.concepts--list {
   margin: 0;
   padding-top: 8px;
   color: black;
@@ -44,19 +49,17 @@
   line-height: 26px;
 }
 
-.card-popular--stat-container {
+.course-stats {
   margin: 0;
-  padding-top: 44px;
   display: flex;
   justify-content: space-between;
 }
 
-.card-popular--stat-container a {
-  text-decoration: none;
+.course-stats a {
   font-weight: bold;
 }
 
-.card-popular--stat-container a:after {
+.course-stats a:after {
   content: "";
   width: 0;
   height: 1px;
@@ -65,22 +68,22 @@
   transition: 300ms;
 }
 
-.card-popular--stat-container a:hover:after {
+.course-stats a:hover:after {
   width: 100%;
 }
 
-.card-popular--stat {
+.course-stat {
   font-size: 14px;
   color: #787575;
 }
 
-.card-popular--stat-br {
+.course-stat-br {
   height: 16px;
   width: 3px;
   background-color: #C4C4C4;
 }
 
-.card-popular--apply-now {
+.course-apply {
   font-size: 14px;
   color: black;
 }
