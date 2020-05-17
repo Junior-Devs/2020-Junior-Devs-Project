@@ -12,8 +12,8 @@ export const courseData = {
   imgSrc: 'https://bit.ly/3dThyIi',
   title: 'A journey to a "Zero Waste" Lifestyle',
   concepts: ['Concept1', 'Concept2'],
-  studentsEnrolled: 0,
-  reviews: 2,
+  studentsEnrolled: 350,
+  reviews: 10,
 };
 
 export const Default = () => <CourseCardPopular {...courseData} />;
