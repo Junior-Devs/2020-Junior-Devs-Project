@@ -1,0 +1,201 @@
+.card {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  max-width: 100%;
+  display: flex;
+  
+  /* added to give card impression */
+  margin: 3%;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  /* added to give card impression */
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.courseLogo {
+  position: absolute;
+  left: 8.21%;
+  right: 90.28%;
+  top: 11.14%;
+  bottom: 81.64%;
+
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #000;
+  line-height: 19px;
+  text-align: center;
+  background: #7eab33;
+  grid-row: 1;
+  grid-column: 1;
+  margin-right: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.courseTitle {
+  position: absolute;
+  left: 10.2%;
+  right: 79.14%;
+  top: 10.96%;
+  bottom: 82.74%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #8e9d79;
+}
+
+.courseHeading {
+  position: absolute;
+  left: 4.6%;
+  right: 78.83%;
+  top: 35.89%;
+  bottom: 57.81%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.courseContent {
+  position: absolute;
+  left: 26.53%;
+  right: 32.82%;
+  top: 23.01%;
+  bottom: 44.66%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160.2%;
+  /* or 26px */
+
+  color: #000000;
+}
+
+.buttonDiv {
+  position: absolute;
+  left: 6.25%;
+  right: 74.07%;
+  top: 55.34%;
+  bottom: 28.55%;
+}
+
+.courseButton {
+  border-radius: 26.5px;
+  border: 3px solid #547818;
+  background-color: #ffffff;
+  color: #547818;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px 20px;
+  z-index: 999;
+}
+
+.courseButton:hover {
+  background-color: #547818;
+  color: #fff;
+}
+
+.progress {
+  position: absolute;
+  left: 5.52%;
+  right: 77.15%;
+  top: 84.25%;
+  bottom: 10.41%;
+}
+
+.progressBar {
+  max-width: 90%;
+  background: #c4c4c4;
+  height: 5px;
+  width: 300px;
+  padding: 3px;
+  margin: 4%;
+  grid-row: 2;
+}
+
+.progressBar:after {
+  content: "";
+  display: block;
+  background: #547818;
+  width: 45%;
+  height: 100%;
+}
+
+.progressPercent {
+  position: absolute;
+  left: 24.54%;
+  right: 71.86%;
+  top: 84.66%;
+  bottom: 10.14%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.duration {
+  position: absolute;
+  left: 46.77%;
+  right: 34.9%;
+  top: 83.29%;
+  bottom: 11.51%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.contentRight {
+  position: absolute;
+  left: 69.02%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: rgba(146, 252, 144, 0.24);
+  border-radius: 0px 15px 15px 0px;
+}
+
+.contentRight img {
+  margin-top: 30%;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
