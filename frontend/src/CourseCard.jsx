@@ -1,5 +1,6 @@
 import React from "react";
 import './CourseCard.css'; 
+import PropTypes from 'prop-types'; 
 
 const CourseCard = ({name, description}) => {
     return <div className="CourseCard">
@@ -14,4 +15,10 @@ const CourseCard = ({name, description}) => {
             </div>  
 }; 
          
+CourseCard.propTypes = {
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired
+}
+
 export default CourseCard;
+
