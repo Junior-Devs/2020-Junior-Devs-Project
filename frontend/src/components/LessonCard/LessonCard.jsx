@@ -1,5 +1,5 @@
 import React from "react";
-import "./LessonCard.module.css";
+import "./LessonCard.css";
 import logo from "../../assets/pollution.png";
 import PropTypes from "prop-types";
 
