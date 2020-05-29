@@ -3,18 +3,29 @@
     background: #F6F8F5;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.24);
     border-radius: 15px;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    max-width: 970px;
+    min-width: 700px; 
 }
 
 .CardBody {
-    align-self: center;
+    /* align-self: center; */
     padding: 2em;
 }
 
-.CardBody span {
+.CardHeader {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CardHeader span {
     font-size: 18px;
-    line-height: 21px;
     color: #787575;
+    margin: 10px 10px; 
+}
+
+.CardImage {
+    width: 6%;
 }
 
 .CardBody h1 {
@@ -44,4 +55,5 @@
     padding: 1em 2em; 
     border-radius: 30px;
     margin: 20px; 
+    border: 0;
 }
