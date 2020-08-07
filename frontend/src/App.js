@@ -11,7 +11,7 @@ const App = () => {
       setData({ list: result.data || [] });
     }
     fetchData();
-  });
+  }, []);
 
   const { list } = data;
 
