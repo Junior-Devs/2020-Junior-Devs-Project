@@ -1,6 +1,6 @@
 import React from "react";
 import './CourseCard.css'; 
-import  pollution from '../assets/images/pollution.png'; 
+import  pollution from '../../assets/images/pollution.png';
 import PropTypes from 'prop-types'; 
 
 const CourseCard = ({name, description}) => {
