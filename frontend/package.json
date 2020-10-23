@@ -33,6 +33,6 @@
   "browserslist": [
     "last 2 Chrome versions"
   ],
-  "proxy": "http://localhost:4000",
+  "proxy": "http://backend:4000",
   "description": ""
 }

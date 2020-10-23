@@ -1,0 +1,40 @@
+version: '3'
+services:
+  bbdd:
+    image: postgres
+    volumes:
+      - bbdd-data:/var/lib/postgresql
+      - ./docker/postgres:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: earthacademy
+      POSTGRES_PASSWORD: earthacademy
+      POSTGRES_DB: earthacademy
+  backend:
+    image: node:10
+    volumes:
+      - ./:/var/www/web
+    command:  "npm start"
+    working_dir: /var/www/web
+    ports:
+      - "4000:4000"
+  frontend:
+    image: node:10
+    volumes:
+      - ./frontend:/var/www/web
+    command: "npm run dev"
+    working_dir: /var/www/web
+    ports:
+      - "1234:1234"
+  storybook:
+    image: node:10
+    volumes:
+      - ./frontend:/var/www/web
+    command:  "npm run storybook"
+    working_dir: /var/www/web
+    ports:
+      - "6006:6006"
+volumes:
+  bbdd-data: {}
+
