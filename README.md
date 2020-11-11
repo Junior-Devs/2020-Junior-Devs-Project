@@ -32,6 +32,10 @@ Please read our [contributing guide](https://github.com/Junior-Devs/2020-Junior-
 
 - Fork the repo. See our guide for this [here](https://junior-devs.com/git-guide)
 
+### Design
+
+https://www.figma.com/file/N32tINg0dN2bQTgWDNjNfS/Elearning-Platform-(home)-(Copy)?node-id=0%3A1
+
 ### Backend
 
 - See [here](https://github.com/Junior-Devs/2020-Junior-Devs-Project/wiki/Local-Database-Setup-for-Testing-Backend) how to set up the local database.
