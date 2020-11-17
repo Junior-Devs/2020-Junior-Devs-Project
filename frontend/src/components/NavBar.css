@@ -1,0 +1,68 @@
+/* NAVIGATION BAR */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.nav {
+  max-width: 1352px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, 1fr));
+  align-items: center;
+  grid-column-gap: 15px;
+
+  padding: 0 60px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.nav__logo {
+  width: 100%;
+  max-width: 67px;
+}
+
+.nav__items,
+.nav__log {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, 1fr));
+}
+
+.nav__items {
+   justify-items: start;
+}
+
+.nav__log {
+   justify-items: end;
+}
+
+.nav__link {
+  font-weight: 400;
+  padding-right: 15px;
+}
+
+.nav__link:active {
+  font-weight: 700;
+  color: #547818;
+}
+
+.nav__log-link {
+  font-weight: 700;
+}
+
+.nav__log-link-1 {
+  grid-column: 2 / 3;
+  padding-right: 15px;
+}
+
+.nav__log-link-2 {
+  grid-column: 3 / 4;
+}
+
+/* THIS IS OK UP TO 768PX (TABLET SIZE) - IS NEEDED ANOTHER DESIGN FOR SMARTPHONE */
+@media only screen and (max-width: 990px) {
+  .nav {font-size: 16px;}
+}
