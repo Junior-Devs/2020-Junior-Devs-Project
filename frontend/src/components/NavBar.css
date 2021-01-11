@@ -1,6 +1,11 @@
 /* NAVIGATION BAR */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .nav {
   max-width: 1352px;
   display: grid;
@@ -42,15 +47,17 @@
 .nav__link {
   font-weight: 400;
   padding-right: 15px;
+  cursor: pointer;
 }
 
-.nav__link:active {
+.nav__link:active a {
   font-weight: 700;
   color: #547818;
 }
 
 .nav__log-link {
   font-weight: 700;
+  cursor: pointer;
 }
 
 .nav__log-link-1 {
