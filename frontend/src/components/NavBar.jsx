@@ -24,14 +24,27 @@ const NavBar = ({ nav_1, nav_2, nav_3, nav_4, nav_5 }) => {
 */
 
 
-const NavBar = () =>{
-   const links = [{id: 1, url: '#', text: 'Home'}, {id: 2, url: '#', text: 'Courses'}, {id: 3, url: '#', text: 'About'}]
-   const logLinks = [{id: 1, url: '#', text: 'Register'}, {id: 2, url: '#', text: 'Login'}]
+const NavBar = () => {
+   const links = [{ id: 1, url: '#', text: 'Home' }, { id: 2, url: '#', text: 'Courses' }, { id: 3, url: '#', text: 'About' }]
+   const logLinks = [{ id: 1, url: '#', text: 'Register' }, { id: 2, url: '#', text: 'Login' }]
 
-      return (
-   
+   return (
+
+      <div>
+         <input type="checkbox" className="navigation__checkbox" id="navi-toggle"></input>
+
+         <label htmlFor="navi-toggle" className="navigation__button">
+            <div className="navigation__icon">
+               <span>&nbsp;</span>
+               <span>&nbsp;</span>
+               <span>&nbsp;</span>
+            </div>
+         </label>
+
+         <div className="navigation__background">&nbsp;</div>
+
          <nav className="nav">
-            <img src={logo} alt="Logo" className="nav__logo"/>
+            <img src={logo} alt="Logo" className="nav__logo" />
             <ul className="nav__items">
                {links.map((link) => {
                   const { id, url, text } = link
@@ -39,8 +52,8 @@ const NavBar = () =>{
                      <li key={id} className="nav__link">
                         <a href={url}>{text}</a>
                      </li>
-                  ) 
-               })}    
+                  )
+               })}
             </ul>
             <ul className="nav__log">
                {logLinks.map((log) => {
@@ -50,11 +63,12 @@ const NavBar = () =>{
                      <li key={id} className={`${logGrid} nav__log-link`}>
                         <a href={url}>{text}</a>
                      </li>
-                  ) 
+                  )
                })}
             </ul>
          </nav>
-      )
-   }
+      </div>
+   )
+}
 
 export default NavBar 
