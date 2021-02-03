@@ -1,0 +1,238 @@
+/* NAVIGATION BAR */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation__checkbox,
+.navigation__button,
+.navigation__background {
+  display: none;
+}
+
+.nav {
+  max-width: 1352px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, 1fr));
+  align-items: center;
+  grid-column-gap: 15px;
+
+  padding: 0 60px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.nav__logo {
+  width: 100%;
+  max-width: 67px;
+}
+
+.nav__items,
+.nav__log {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, 1fr));
+}
+
+.nav__items {
+  justify-items: start;
+}
+
+.nav__log {
+  justify-items: end;
+}
+
+.nav__link {
+  font-weight: 400;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.nav__link:active a {
+  font-weight: 700;
+  color: #547818;
+}
+
+.nav__log-link {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav__log-link-1 {
+  grid-column: 2 / 3;
+  padding-right: 15px;
+}
+
+.nav__log-link-2 {
+  grid-column: 3 / 4;
+}
+
+/* FOR TABLET */
+@media only screen and (max-width: 990px) {
+  .nav {
+    font-size: 16px;
+  }
+}
+
+/* SMARTPHONE DESIGN */
+@media only screen and (max-width: 550px) {
+  .navigation__button {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    position: fixed;
+    top: 2.5rem;
+    right: 3rem;
+    z-index: 2000;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .navigation__background {
+    display: block;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 1.5rem;
+    right: 3.5rem;
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+
+  .nav {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 1500;
+    display: block;
+    background-image: linear-gradient(rgba(142,157, 121, 0.15), rgba(142,157, 121, 0.15));
+    opacity: 0;
+    width: 0;
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .nav__logo,
+  .nav__items,
+  .nav__log {
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav__logo {
+    max-width: 50px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+  }
+
+  .nav__items {
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+  }
+
+  .nav__log {
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+  }
+
+  .nav__link,
+  .nav__log-link {
+    margin: 1rem;
+    padding-right: 0;    
+  }
+
+  .nav__link:link,
+  .nav__link:visited,
+  .nav__log-link:link,
+  .nav__log-link:visited {
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+    background-size: 220%;
+    transition: all .4s;
+  }
+
+  .nav__link:hover,
+  .nav__link:active,
+  .nav__log-link:hover,
+  .nav__log-link:active {
+    background-position: 100%;
+    transform: translateX(1rem);
+  }
+
+  //FUNCTIONALITY
+  .navigation__checkbox:checked ~ .navigation__background {
+    transform: scale(80);
+  }
+
+  .navigation__checkbox:checked ~ .nav {
+    opacity: 1;
+    width: 100%;
+  }
+
+  //ICON
+  .navigation__icon {
+    position: relative;
+    display: inline-block;
+  }
+
+  .navigation__icon span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 3rem;
+    background-color: #547818;
+    opacity: 1;
+    left: 0;
+    transition: all .2s;
+  }
+
+  .navigation__icon span:nth-child(1) {
+    top: 0;
+  }
+
+  .navigation__icon span:nth-child(2) {
+    top: 14px;
+  }
+
+  .navigation__icon span:nth-child(3) {
+    top: 28px;
+  }
+
+  .navigation__button:hover .navigation__icon span:nth-child(1) {
+    top: -5px;
+  }
+
+  .navigation__button:hover .navigation__icon span:nth-child(3) {
+    top: 33px;
+  }
+
+  .navigation__checkbox:checked + .navigation__button .navigation__icon span:nth-child(2) {
+    background-color: transparent;
+  }
+
+  .navigation__checkbox:checked + .navigation__button .navigation__icon span:nth-child(1) {
+    top: 14px;
+    transform: rotate(135deg)  }
+
+  .navigation__checkbox:checked + .navigation__button .navigation__icon span:nth-child(3) {
+    top: 14px;
+    transform: rotate(-135deg)  }
+}
