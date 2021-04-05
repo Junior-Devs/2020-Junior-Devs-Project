@@ -7,8 +7,10 @@ const App = () => {
 
   useEffect(() => {
     async function fetchData() {
-      const result = await fetch("/api/getSomething");
-      setData({ list: result.data || [] });
+      const result = await fetch("/api/getSomething")
+      .then((data) => data.json())
+      .then((parsedResponce) => parsedResponce);
+      setData({ list: result || [] });
     }
     fetchData();
   }, []);
