@@ -5,7 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
-    "knex": "^0.21.1",
+    "knex": "^2.4.0",
     "npm-bundler": "^0.0.1",
     "parcel-bundler": "^1.12.4",
     "pg": "^8.1.0",
